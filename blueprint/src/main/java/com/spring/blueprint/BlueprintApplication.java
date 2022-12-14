@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BlueprintApplication {
 
 	public static void main(String[] args) {
+		System.out.print("blueprint"); 
+		
 		SpringApplication.run(BlueprintApplication.class, args);
+
+		
 	}
 
 }
